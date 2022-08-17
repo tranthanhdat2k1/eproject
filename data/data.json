@@ -1,0 +1,136 @@
+{
+    "product" : [
+        {
+            "id" : 1,
+            "name" : "Quạt trần",
+            "trademark" : "panasonic",    
+            "image": "./images/avaquattranpanasonic5canhtrang.jpg",
+            "color":[
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./images/quat-tran-mau-trang/quattranpanasonictrang.jpg",
+                    "ceiling fan": [
+                            {
+                                "price" : "100$",
+                                "id" : 1,
+                                "number" : 3,
+                                "image":"./iamges/quat-tran-mau-trang/qut-trn-3-canh-panasonic-trang.jpg"
+                            },
+                            { 
+                                "price" : "200$",
+                                "id" : 2,
+                                "number" : 4,
+                                "image":"./iamges/quat-tran-mau-trang/quattranpanasonic4canhtrang.jpg"
+                            },
+                            {
+                                "price" : "250$",
+                                "id" : 3,
+                                "number" : 5,
+                                "image":"./iamges/quat-tran-mau-trang/avaquattranpanasonic5canhtrang.jpg"
+                            }
+                            
+                        ]
+                    
+                },
+                {
+                    "id":2,
+                    "color" : "black",
+                    "image": "./images/quat-tran-mau-den/anhtrangdau.jpg",
+                    "ceiling fan": [
+                        {
+                            "price" : "100$",
+                            "id" : 1,
+                            "number" : 3,
+                            "image":"./iamges/quat-tran-mau-den/quattranden3canh.jpg"
+                        },
+                        { 
+                            "price" : "200$",
+                            "id" : 2,
+                            "number" : 4,
+                            "image":"./iamges/quat-tran-mau-den/quattranpanasonic4canh.jpg"
+                        },
+                        {
+                            "price" : "250$",
+                            "id" : 3,
+                            "number" : 5,
+                            "image":"./iamges/quat-tran-mau-den/quattranden5canh.jpg"
+                        }
+                        
+                    ]
+                
+                    
+                }
+                 
+            ]
+        },
+        { 
+            "id" : 2,
+            "name" : "Quạt trần",
+            "trademark" : "hunter",
+            "image": "./images/quat-tran-hunter/quattran5canhnau.jpg",
+            "color":[
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./images/quat-tran-hunter/quattran5canh2trang",
+                    "ceiling fan": [
+                        {
+                            "price" : "600$",
+                            "id" : 1,
+                            "number" : 3,
+                            "image":"./iamges/quat-tran-hunter/quattrang3canhtrang.jpg"
+                        },
+                       
+                        {
+                            "price" : "800$",
+                            "id" : 2,
+                            "number" : 5,
+                            "image":"./iamges/quat-tran-hunter/quattran5canh2trang"
+                        }
+                    ]
+                },
+                {
+                    "id":2,
+                    "color" : "brown",
+                    "image": "./images/quat-tran-hunter/quattran5canhnau.jpg",
+                    "ceiling fan": [
+                        {
+                            "price" : "600$",
+                            "id" : 1,
+                            "number" : 3,
+                            "image":[
+                                {
+                                   "id": 1,
+                                      "image": "./images/quat-tran-hunter/quattran5canhnau.jpg"
+                                },{
+                                    "id": 2,
+                                    "image": "./images/quat-tran-hunter/5canhnau2.jpg"
+                                }
+                            ]
+                        }
+                      
+                    ]
+
+                },
+                {
+                    "id":3,
+                    "color" : "black",
+                    "image": "./images/quat-tran-hunter/3canhden.jpg",
+                    "ceiling fan": [
+                        {
+                            "price" : "600$",
+                            "id" : 1,
+                            "number" : 3,
+                            "image":"./iamges/quat-tran-hunter/3canhden.jpg"
+                        }
+                      
+                    ]
+                }
+            ]
+
+
+        }
+      
+    ]
+}
