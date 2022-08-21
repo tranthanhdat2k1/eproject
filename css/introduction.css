@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Open Sans;
+    src: url(../font/font-open-sans/OpenSans-Regular.ttf);
+}
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 800px;
+    }
+  }
+.introduction{
+    margin-top: 3rem;
+}
+.introduction .content-introduction{
+    font-size: 18px;
+    color: #444245;
+    line-height: 30px;
+    text-align: center;
+    font-family:Open Sans;
+    font-weight:400;
+    font-style:normal
+}
+.introduction .content-introduction .content{
+    width: 50%;
+    padding: 15px 5px;
+    box-sizing: border-box;
+}
+.introduction .wbp-wrapper .figure {
+    display: flex;
+}
+.introduction .wbp-wrapper .img-layout img{
+    width: 700px;
+}
+.introduction .wbp-wrapper .img-layout img:hover{
+    animation: mymover .5 infinite;
+}
+.introduction .wbp-wrapper .back{
+    margin-top: 30px;
+}
+.introduction .wbp-wrapper-content .h5{
+    font-size: 18px;
+    color: #5e5a5b;
+    line-height: 1.15;
+    text-align: left;
+    font-family:Open Sans;
+    font-weight:600;
+    font-style:normal;
+    margin-top: 3rem
+}
+.introduction .wbp-wrapper-content .h5 a{
+    text-decoration: none; 
+    color:#5e5a5b
+}
+.introduction .wbp-wrapper-content .h2 h2{
+    font-size: 3rem;
+    font-family:Open Sans;
+}
+.introduction .wbp-wrapper-content .content-p p{
+    font-size: 1.4rem;
+    font-family: Open Sans;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+.introduction .wbp-wrapper-content .btn-learn-more {
+    background-color: #542950;
+    outline: none;
+    border: #542950;
+}
+.introduction .wbp-wrapper-content-introduction .wbp-wrapper-content-introduction-detail{
+    background-color: #f1f0ee;
+    padding: 2rem;
+    box-sizing: border-box;
+    max-width: 450px;
+    margin: 0%;
+    float: right;
+}
+.introduction .wbp-wrapper-content-introduction .wbp-wrapper-content-introduction-detail{
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.introduction .wbp-wrapper .img-home{
+    width: 800px;
+    margin-top: 100px;
+}
+.introduction .wbp-wrapper .img-home img{
+    width: 600px;
+}
+.introduction .introduct-fan{
+    margin-top: 3rem;
+}
+.introduction .introduct-fan img{
+    width: 100%;
+    height: 600px;
+}
+.introduction .img-logo {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    margin-left: 9rem;
+    box-sizing: border-box;
+}
+.introduction .img-logo img{
+    width: 37.5rem;
+    margin: 1.25rem;
+    box-sizing: border-box;
+}
+.introduction .about-us{
+    background-image: url(../public/image/image-use-layout/air-apparent.jpg);
+    background-size: cover;
+    background-position: right center;
+    padding: 2rem 3rem;
+}
+.introduction .about-us-container {
+    max-width: 41rem;
+    margin-left: 10rem;
+}
+.introduction .about-us-description {
+    padding: 8rem 4rem ;
+    color: #f1f0ee;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: Open Sans;
+    box-sizing: border-box;
+}
+.introduction .about-us-description h5 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+
+}
+.introduction .about-us-description h1{
+    font-size: 3rem;
+}
+.introduction .about-us-description p {
+    margin-bottom: 1rem;
+    margin-top: 1.7rem;
+    font-size: 1.2rem;
+
+}
+.introduction .about-us-container .about-us-description{
+    background-color: #542950;
+    
+}
+.introduction .content-functionality{
+    background-color: #542950;
+    background-size: cover;
+    margin-top: 0.3rem;
+    display: flex;
+    padding: 2rem;
+    color: #f1f0ee;
+    font-family: Open Sans;
+    align-items: center;
+    justify-content: center;
+}
+.introduction .content-functionality h4{
+    margin-right: 4rem;
+    max-width: 30%;
+}
+.introduction .content-functionality p {
+    font-size: 1rem;
+    max-width: 45rem;
+    box-sizing: border-box;
+    margin-left: 4rem;
+}
+.introduction .content-functionality .btn-learn-more {
+    background-color: #542950;
+    border-radius: 5px solid;
+    border-color: #f1f0ee ;
+    margin-left: 6rem;
+}
+.introduction .content-functionality .btn-learn-more:hover  {
+    background-color: #f1f0ee;
+    border-radius: 5px solid;
+    border-color: #f1f0ee ;
+    color: #542950;
+}
